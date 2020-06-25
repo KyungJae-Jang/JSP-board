@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	top: 0;
+	left: 0;
+}
+
+.header {
+	background-color: #289cef;
+	overflow: hidden;
+}
+
+.header a {
+	float: left;
+	color: white;
+	background-color: #289cef;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.header a:hover {
+	background-color: #ddd;
+	color: black;
+}
